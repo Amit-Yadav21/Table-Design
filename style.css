@@ -1,21 +1,23 @@
+.table-div{
+    border: 2px solid red;
+    border-bottom-right-radius: 1.5rem;
+}
+
 table {
     border-collapse: collapse;
     width: 100%;
-    border: 2px solid red;
 }
 
 th{
     background-color: #E9EDF5;
 }
 th, td {
-    /* border-bottom: 1px solid #dddddd; */
     text-align: left;
     padding: 8px;
 }
 tr{
     border: 2px solid #dddddd;
 }
-
 
 th img{
     height: 1rem;
@@ -32,6 +34,8 @@ td:first-child {
 td:nth-child(2) {
     font-weight: bold;
 }
+
+/* status column */
 .checkbox input[type="checkbox"] {
     width: 8px; 
     height: 8px; 
@@ -62,4 +66,39 @@ td:nth-child(2) {
 
 .Align-item{
     text-align: right;
+}
+
+/* table footer */
+.table-footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 15px 0px 15px;
+}
+.page-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-dropdown{
+    padding: 5px;
+    border-radius: 5px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 1px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+#pagination{
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+}
+#pagination li a {
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s
+      
+}
+#pagination li a.active {
+background-color:#F7F9FC;
+padding: 8px;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
