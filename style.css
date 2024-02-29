@@ -32,11 +32,6 @@ td:first-child {
 td:nth-child(2) {
     font-weight: bold;
 }
-/* td:nth-child(4) {
-    background-color: #EFFFF2;
-    border-radius: 10px;
-    color: #14804A;
-} */
 .checkbox input[type="checkbox"] {
     width: 8px; 
     height: 8px; 
@@ -44,7 +39,7 @@ td:nth-child(2) {
     background-color: #14804A;
 }
 
-.Actice_color{
+.Active_color{
     background-color: #EFFFF2;
     border-radius: 10px;
     color: #14804A;
