@@ -16,7 +16,7 @@ th, td {
     padding: 8px;
 }
 tr{
-    border: 2px solid #dddddd;
+    border-bottom: 1px solid #ddd;
 }
 
 th img{
